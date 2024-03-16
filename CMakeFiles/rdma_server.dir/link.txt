@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/rdma_server.dir/main.c.o  -o rdma_server libmy_lib.a 

@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0)
+project(YourProjectName C)
+
+# Add the executable
+add_executable(your_executable_name main.c rdma_server.h rdma_server.c)
+
+# Include the directory containing rdma_server.h if needed
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
+# Optionally, you can set additional compiler flags
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
+

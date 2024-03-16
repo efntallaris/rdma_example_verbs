@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra  -rdynamic CMakeFiles/server.dir/main_server.c.o CMakeFiles/server.dir/rdma_server.c.o  -o server -libverbs 

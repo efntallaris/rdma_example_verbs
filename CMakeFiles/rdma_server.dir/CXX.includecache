@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/rd/rdma_example/main.cpp
+iostream
+-
+string.h
+-
+rdma_server.h
+/root/rd/rdma_example/rdma_server.h
+
+/root/rd/rdma_example/rdma_buffer.h
+netdb.h
+-
+errno.h
+-
+getopt.h
+-
+rdma/rdma_cma.h
+-
+rdma/rdma_verbs.h
+-
+infiniband/verbs.h
+-
+
+/root/rd/rdma_example/rdma_server.h
+netdb.h
+-
+errno.h
+-
+getopt.h
+-
+rdma_buffer.h
+/root/rd/rdma_example/rdma_buffer.h
+

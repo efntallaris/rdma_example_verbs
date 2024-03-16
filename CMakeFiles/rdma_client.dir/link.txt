@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/rdma_client.dir/rdma_client.c.o  -o rdma_client -libverbs 

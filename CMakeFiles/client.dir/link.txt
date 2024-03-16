@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra  -rdynamic CMakeFiles/client.dir/main_client.c.o CMakeFiles/client.dir/rdma_client.c.o  -o client -libverbs 

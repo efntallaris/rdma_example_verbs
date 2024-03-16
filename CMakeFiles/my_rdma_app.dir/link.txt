@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/my_rdma_app.dir/main.cpp.o CMakeFiles/my_rdma_app.dir/rdma_server.c.o  -o my_rdma_app -lpthread -libverbs -libverbs 
